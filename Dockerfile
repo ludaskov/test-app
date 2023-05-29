@@ -5,7 +5,7 @@ FROM ubuntu:22.04
 WORKDIR /app
 
 # Copy the app package and package-lock.json file
-COPY test-app-linux64 ./
+COPY test-app-linux64* ./
 
 
 # Install node packages, install serve, build the app, and remove dependencies at the end
